@@ -17,11 +17,11 @@ public class EurometBot extends TelegramLongPollingBot {
     private final Map<Long, String> userState = new HashMap<>();
     private final Map<Long, Map<String, String>> userForm = new HashMap<>();
 
-    private static final List<String> MANAGER_IDS = Arrays.asList("917833178", "395336816");
+    private static final List<String> MANAGER_IDS = Arrays.asList("your id", "your id");
 
     @Override
     public String getBotToken() {
-        return "8123850537:AAEZ83eawoHQO6_FDxaD8RZXL_2GGMOylzI";
+        return "Your token";
     }
 
     @Override
