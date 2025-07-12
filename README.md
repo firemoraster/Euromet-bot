@@ -65,9 +65,8 @@
 ## ⚙️ Архітектура бота
 
 ### Стани користувача
-Бот використовує систему станів для обробки введення даних:
 ```mermaid
-stateDiagram
+stateDiagram-v2
     [*] --> MainMenu
     MainMenu --> SaleForm: "Продаж зерна"
     MainMenu --> CostForm: "Розрахунок вартості"
